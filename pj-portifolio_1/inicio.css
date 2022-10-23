@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@600&family=Nabla&display=swap');
+
+
+.inicio{
+    display: flex;
+    height: 90vh;
+    text-align: left;
+    align-items: center;
+}
+.parte-1{
+    font-family: 'Nabla', cursive;
+    font-size: 3rem;
+    color:rgb(255, 196, 0);
+    margin: 2.5rem;
+    transition: 1s;
+}
+.text{
+    font-family: 'Lexend Exa', sans-serif;
+    margin: 2.5rem;
+    background-color: rgb(255, 196, 0);
+    border-radius: 1.1rem;
+    padding: 1.1rem;
+    border:solid rgb(0, 0, 0);
+    transition: 0.5s;
+}
+.text:hover{
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 196, 0);
+    border:solid rgb(255, 196, 0);
+}
